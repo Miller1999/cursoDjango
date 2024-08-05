@@ -10,3 +10,7 @@ Se conectan mediante un contexto.
 
 **Recomendacion**
 No conectar directamente el template y el Model, siempre pasar por el View ya que esta contiene herramientas para poder trabajar con los datos
+
+### ORM
+
+El orm nos permite relacionar nuestros modelos en el back con tablas en la base de datos esto noes permite construir las bases de datos usando solo codigo python sin ncesisdad de hacer sentencias en SQL, estos ORM tambien ayudan a que no dependamos del motor de base de datos
